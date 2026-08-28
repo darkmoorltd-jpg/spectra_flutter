@@ -33,7 +33,7 @@ class DashboardScreen extends StatelessWidget {
               SizedBox(height: 16),
               ElevatedButton.icon(
                 onPressed: () {
-                  // TODO: Open camera/upload
+                  Navigator.pushNamed(context, '/scan');
                 },
                 icon: Icon(Icons.camera_alt),
                 label: Text('Scan Mineral'),
